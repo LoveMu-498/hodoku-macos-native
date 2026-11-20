@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDevelopmentRegion</key><string>zh-Hans</string>
+    <key>CFBundleDisplayName</key><string>HoDoKu 原生试用版</string>
+    <key>CFBundleName</key><string>HoDoKu Native</string>
+    <key>CFBundleExecutable</key><string>HoDoKuNative</string>
+    <key>CFBundleIdentifier</key><string>org.hodoku.nativecandidate</string>
+    <key>CFBundleIconFile</key><string>HoDoKu.icns</string>
+    <key>CFBundleInfoDictionaryVersion</key><string>6.0</string>
+    <key>CFBundleDocumentTypes</key>
+    <array><dict>
+        <key>CFBundleTypeName</key><string>HoDoKu 回放</string>
+        <key>CFBundleTypeRole</key><string>Viewer</string>
+        <key>LSHandlerRank</key><string>Alternate</string>
+        <key>CFBundleTypeExtensions</key><array><string>hrep</string><string>hdkreplay</string></array>
+    </dict><dict>
+        <key>CFBundleTypeName</key><string>HoDoKu 题目与设置</string>
+        <key>CFBundleTypeRole</key><string>Viewer</string>
+        <key>LSHandlerRank</key><string>Alternate</string>
+        <key>CFBundleTypeExtensions</key><array><string>hsol</string><string>ss</string><string>hodoku-settings</string></array>
+    </dict></array>
+    <key>CFBundlePackageType</key><string>APPL</string>
+    <key>LSMinimumSystemVersion</key><string>11.0</string>
+    <key>NSHighResolutionCapable</key><true/>
+    <key>NSPrincipalClass</key><string>NSApplication</string>
+</dict>
+</plist>
