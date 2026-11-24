@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-labelledby="title description">
+  <title id="title">HoDoKu 示例题中的显性单数</title>
+  <desc id="description">高亮区域是中心格 R5C5 的所在行、列和九宫格。它们已包含除 5 之外的数字，所以中心格只剩候选 5。</desc>
+  <rect width="1200" height="600" rx="28" fill="#EAF2EB"/>
+  <rect x="626" y="48" width="526" height="504" rx="22" fill="#163B34"/>
+
+  <!-- The givens come from NativeBoardSnapshot.example in the public source. -->
+  <g transform="translate(66 48)">
+    <rect width="504" height="504" fill="#FFFFFF"/>
+    <path d="M224 0H280V504H224Z M0 224H504V280H0Z" fill="#EAF2EB"/>
+    <path d="M168 168H336V336H168Z" fill="#CFE3D6"/>
+    <rect x="224" y="224" width="56" height="56" fill="#B8DCC7"/>
+    <path d="M56 0V504 M112 0V504 M224 0V504 M280 0V504 M392 0V504 M448 0V504
+             M0 56H504 M0 112H504 M0 224H504 M0 280H504 M0 392H504 M0 448H504"
+          fill="none" stroke="#94AA9F" stroke-width="1.5"/>
+    <path d="M168 0V504 M336 0V504 M0 168H504 M0 336H504" fill="none" stroke="#163B34" stroke-width="3"/>
+    <rect width="504" height="504" fill="none" stroke="#163B34" stroke-width="3"/>
+    <g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="35" font-weight="550" text-anchor="middle">
+      <g fill="#52665F">
+        <text x="28" y="39">5</text>
+        <text x="84" y="39">3</text>
+        <text x="28" y="95">6</text>
+        <text x="196" y="95">1</text>
+        <text x="308" y="95">5</text>
+        <text x="84" y="151">9</text>
+        <text x="140" y="151">8</text>
+        <text x="420" y="151">6</text>
+        <text x="28" y="207">8</text>
+        <text x="476" y="207">3</text>
+        <text x="28" y="319">7</text>
+        <text x="476" y="319">6</text>
+        <text x="84" y="375">6</text>
+        <text x="364" y="375">2</text>
+        <text x="420" y="375">8</text>
+        <text x="196" y="431">4</text>
+        <text x="308" y="431">9</text>
+        <text x="476" y="431">5</text>
+        <text x="420" y="487">7</text>
+        <text x="476" y="487">9</text>
+      </g>
+      <g fill="#163B34" font-weight="700">
+        <text x="252" y="39">7</text>
+        <text x="252" y="95">9</text>
+        <text x="252" y="207">6</text>
+        <text x="28" y="263">4</text>
+        <text x="196" y="263">8</text>
+        <text x="308" y="263">3</text>
+        <text x="476" y="263">1</text>
+        <text x="252" y="319">2</text>
+        <text x="252" y="431">1</text>
+        <text x="252" y="487">8</text>
+      </g>
+      <circle cx="252" cy="252" r="22" fill="none" stroke="#163B34" stroke-width="2.5" stroke-dasharray="4 3"/>
+      <text x="252" y="263" fill="#163B34" font-weight="750">5</text>
+    </g>
+  </g>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, PingFang SC, Microsoft YaHei, sans-serif">
+    <text x="682" y="160" fill="#DDEDE2" font-size="38" font-weight="500">示例题</text>
+    <text x="678" y="250" fill="#FFFFFF" font-size="72" font-weight="700">显性单数</text>
+    <path d="M682 294H1096" stroke="#94AA9F" stroke-width="1.5"/>
+    <text x="680" y="389" fill="#B8DCC7" font-size="39" font-weight="550">唯一候选</text>
+    <text x="677" y="479" fill="#FFFFFF" font-size="77" font-weight="700">R5C5 = 5</text>
+  </g>
+</svg>
